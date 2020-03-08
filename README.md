@@ -17,6 +17,8 @@ then appropriately decide the major number of the character device driver by mak
 ls -l /dev/simple_char_device 
 
 Also the major number must be more than the major number of the character devices listed by the above command
+
+
 sudo mknod -m 666 /dev/simple_char_device c 300 0
 _____________
 For viewing the functions calls use:
