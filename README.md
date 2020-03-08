@@ -5,7 +5,11 @@ make -C /lib/modules/$(uname -r)/build M=$PWD modules
 
 
 sudo insmod ./ex07_simple_module.ko
+
+
 ls -l /dev/simple_char_device 
+
+
 Note I would recommend first that we list all the character drivers currently in execution and
 then appropriately decide the major number of the character device driver by making some minor changes and then rebuilding the module
 ls -l /dev/simple_char_device 
