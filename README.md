@@ -26,4 +26,4 @@ For viewing the functions calls use:
 sudo tail -f /var/log/syslog
 
 For interacting with the driver use:
-echo "I Am Iron Man!" >/dev/simple_char_device
+echo "Hello World!" >/dev/simple_char_device
